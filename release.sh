@@ -49,7 +49,7 @@ notify_email()
    echo "*** Notifying JBoss EAP team"
    subject=`eval echo $EMAIL_SUBJECT`
    echo "Email from: " $EMAIL_FROM
-   echo "Email to: " $EAP_EMAIL_TO
+   echo "Email to: " $EMAIL_TO
    echo "Subject: " $subject
    # send email using sendmail
    printf "Subject: $subject\nSee \$subject :)\n" | /usr/bin/env sendmail -f "$EMAIL_FROM" "$EMAIL_TO"
