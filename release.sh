@@ -20,7 +20,7 @@ EMAIL_SUBJECT="\${RELEASEVERSION} of JBoss BOMs released, please merge with http
 EMAIL_TO="pgier@redhat.com kpiwko@redhat.com"
 EMAIL_FROM="\"JDF Publish Script\" <benevides@redhat.com>"
 
-JIRA_PROJECT="12310321"
+JIRA_PROJECT="12310320"
 #JIRA PLAYGROUND -- JIRA_PROJECT="10073"
 JIRA_TO="pgier"
 JIRA_SUMMARY="Upgrade jboss-bom project in EAP"
