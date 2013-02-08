@@ -48,7 +48,7 @@
             <!-- Errai Core and ErraiBus -->
             <dependency>
                 <groupId>org.jboss.errai</groupId>
-                <artifactId>errai-bus</artifactId>
+                <artifactId>errai-javaee-all</artifactId>
                 <version>${version.org.jboss.errai}</version>
                 <exclusions>
                     <exclusion>
@@ -60,64 +60,6 @@
                         <artifactId>jsr250-api</artifactId>
                     </exclusion>
                 </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.jboss.errai</groupId>
-                <artifactId>errai-ioc</artifactId>
-                <version>${version.org.jboss.errai}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>javax.inject</groupId>
-                        <artifactId>javax.inject</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>javax.annotation</groupId>
-                        <artifactId>jsr250-api</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.jboss.errai</groupId>
-                <artifactId>errai-tools</artifactId>
-                <version>${version.org.jboss.errai}</version>
-            </dependency>
-
-            <!-- Errai JAX-RS -->
-            <dependency>
-                <groupId>org.jboss.errai</groupId>
-                <artifactId>errai-jaxrs-client</artifactId>
-                <version>${version.org.jboss.errai}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.jboss.errai</groupId>
-                <artifactId>errai-jaxrs-provider</artifactId>
-                <version>${version.org.jboss.errai}</version>
-            </dependency>
-
-            <!-- Errai CDI Integration Modules -->
-            <dependency>
-                <groupId>org.jboss.errai</groupId>
-                <artifactId>errai-cdi-client</artifactId>
-                <version>${version.org.jboss.errai}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.jboss.errai</groupId>
-                <artifactId>errai-javax-enterprise</artifactId>
-                <version>${version.org.jboss.errai}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.jboss.errai</groupId>
-                <artifactId>errai-weld-integration</artifactId>
-                <version>${version.org.jboss.errai}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.jboss.errai</groupId>
-                <artifactId>jboss7-support</artifactId>
-                <version>${version.org.jboss.errai}</version>
             </dependency>
 
             <dependency>
@@ -130,6 +72,15 @@
                 <groupId>com.google.gwt</groupId>
                 <artifactId>gwt-dev</artifactId>
                 <version>${version.com.google.gwt}</version>
+            </dependency>
+
+            <!-- GWT validation also requires the validation API sources at compile 
+              time -->
+            <dependency>
+                <groupId>javax.validation</groupId>
+                <artifactId>validation-api</artifactId>
+                <version>${version.javax.validation}</version>
+                <classifier>sources</classifier>
             </dependency>
 
             <!-- MVEL-->
