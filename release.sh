@@ -80,7 +80,7 @@ release()
    echo "***** JBoss BOMs released"
    read -p "Do you want to send release notifcations to $EAP_EMAIL_TO[y/N]? " yn
    case $yn in
-       [Yy]* ) notify_email;
+       [Yy]* ) notify_email;;
        * ) exit;
    esac
 }
