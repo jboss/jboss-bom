@@ -49,11 +49,16 @@
 
             <!-- The XTS api needed to use WS-TX -->
             <dependency>
-                <groupId>org.jboss.jbossts</groupId>
-                <artifactId>jbossxts-api</artifactId>
+                <groupId>org.jboss.jbossts.xts</groupId>
+                <artifactId>jbossxts</artifactId>
                 <version>${version.org.jboss.jbossts.jbossjts}</version>
+                <classifier>api</classifier>
                 <scope>provided</scope>
                 <exclusions>
+                    <exclusion>
+                        <groupId>org.hornetq</groupId>
+                        <artifactId>hornetq-core</artifactId>
+                    </exclusion>
                     <exclusion>
                         <groupId>org.jboss.logging</groupId>
                         <artifactId>jboss-logging-spi</artifactId>
@@ -62,8 +67,8 @@
             </dependency>
 
             <dependency>
-                <groupId>org.jboss.jbossts</groupId>
-                <artifactId>jbossjta</artifactId>
+                <groupId>org.jboss.jbossts.jta</groupId>
+                <artifactId>jta</artifactId>
                 <version>${version.org.jboss.jbossts.jbossjts}</version>
                 <scope>provided</scope>
                 <exclusions>
