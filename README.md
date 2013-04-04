@@ -13,7 +13,7 @@ To use the BOM, import into your dependency management. For example, if you want
             <dependency>
                 <groupId>org.jboss.spec</groupId>
                 <artifactId>jboss-javaee-web-6.0-with-tools</artifactId>
-                <version>1.0.5-SNAPSHOT</version>
+                <version>1.0.5.CR3</version>
                 <scope>import</scope>
             </dependency>
         </dependencies>
@@ -34,7 +34,7 @@ Unfortunately, Maven doesn't allow you to specify plugin versions this way. The 
             <plugin>
                 <groupId>org.jboss.as.plugins</groupId>
                 <artifactId>jboss-as-maven-plugin</artifactId>
-                <version>7.1.1.Final</version>
+                <version>7.3.Final</version>
             </plugin>
         </plugins>
     </pluginManagement>
