@@ -47,7 +47,7 @@
         <version.org.apache.deltaspike>0.3-incubating</version.org.apache.deltaspike>
         
         <!-- Versions of JBoss projects -->
-        <version.org.infinispan>5.2.4.FINAL</version.org.infinispan>
+        <version.org.infinispan>5.2.4.Final</version.org.infinispan>
         <version.org.jboss.arquillian>1.0.3.Final</version.org.jboss.arquillian>
         <version.org.jboss.arquillian.extension.drone>1.1.1.Final</version.org.jboss.arquillian.extension.drone>
         <version.org.jboss.arquillian.graphene>1.0.0.Final</version.org.jboss.arquillian.graphene>
