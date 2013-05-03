@@ -10,7 +10,7 @@
         <artifactId>jboss-bom-parent</artifactId>
     </parent>
 
-    <artifactId>jboss-javaee-6.0-with-drools-expert</artifactId>
+    <artifactId>jboss-javaee-6.0-with-drools</artifactId>
     <packaging>pom</packaging>
 
     <name>JBoss Java EE 6 Specification APIs with Security</name>
