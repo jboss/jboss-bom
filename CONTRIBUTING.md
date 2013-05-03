@@ -37,11 +37,21 @@ Here are the steps in detail:
         git add <changed-filename>
         git commit -m `Description of change...`
 
-8. Push your local topic branch to your github forked repository. This will create a branch on your Git fork repository with the same name as your local topic branch name.
+8. Test your changes. 
+    * Install a SNAPSHOT version to your LOCAL Maven repository by typing the following command: 
+    
+            mvn clean install 
+    * Modify the quickstart POM file to include the new BOM.
+       * Add a property variable to the `<properties>` section of the POM file and specify the locally installed SNAPSHOT version of the BOM.
+       * Add the new BOM to the `<dependencyManagement>` section of the POM. Use the property variable name defined in the previous step to specify the version.
+    * Build, deploy, and test your quickstart using the `-U` parameter to force a check for snapshots. For example:
+    
+            mvn -U clean package jboss-as:deploy
+9. Push your local topic branch to your github forked repository. This will create a branch on your Git fork repository with the same name as your local topic branch name.
 
         git push origin HEAD            
 
-9. Browse to the <topic-branch-name> branch on your forked Git repository and [open a Pull Request](http://help.github.com/send-pull-requests/). Give it a clear title and description.
+10. Browse to the <topic-branch-name> branch on your forked Git repository and [open a Pull Request](http://help.github.com/send-pull-requests/). Give it a clear title and description.
 
 General Guidelines
 ------------------
