@@ -13,8 +13,8 @@
     <artifactId>jboss-javaee-6.0-with-drools</artifactId>
     <packaging>pom</packaging>
 
-    <name>JBoss Java EE 6 Specification APIs with Security</name>
-    <description>Dependency Management for Java EE 6 Specification APIs with JBoss Drools Expert. </description>
+    <name>JBoss Java EE 6 Specification APIs JBoss Drools</name>
+    <description>Dependency Management for Java EE 6 Specification APIs with JBoss Drools</description>
 
     <licenses>
         <license>
