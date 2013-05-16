@@ -45,7 +45,8 @@
     <properties>
         <!-- Version of Deltaspike -->
         <version.org.apache.deltaspike>0.3-incubating</version.org.apache.deltaspike>
-        
+        <!-- Version of Drools -->
+        <version.org.jboss.drools>5.5.0.Final </version.org.jboss.drools>
         <!-- Versions of JBoss projects -->
         <version.org.infinispan>5.2.4.Final</version.org.infinispan>
         <version.org.jboss.arquillian>1.0.3.Final</version.org.jboss.arquillian>
@@ -114,6 +115,7 @@
     <modules>
         <module>jboss-javaee-6.0-with-all</module>
         <module>jboss-javaee-6.0-with-deltaspike</module>
+        <module>jboss-javaee-6.0-with-drools</module>
         <module>jboss-javaee-6.0-with-errai</module>
         <module>jboss-javaee-6.0-with-hibernate</module>
         <module>jboss-javaee-6.0-with-hibernate3</module>
