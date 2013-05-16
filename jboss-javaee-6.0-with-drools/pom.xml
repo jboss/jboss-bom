@@ -5,24 +5,25 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.jboss.bom</groupId>
-        <version>1.0.5-SNAPSHOT</version>
+       <groupId>org.jboss.bom</groupId>
+        <version>1.0.7-SNAPSHOT</version>
         <artifactId>jboss-bom-parent</artifactId>
     </parent>
 
     <artifactId>jboss-javaee-6.0-with-drools</artifactId>
     <packaging>pom</packaging>
 
-    <name>JBoss Java EE 6 Specification APIs JBoss Drools</name>
+    <name>JBoss Java EE 6 Specification APIs with JBoss Drools</name>
     <description>Dependency Management for Java EE 6 Specification APIs with JBoss Drools</description>
 
     <licenses>
-        <license>
-            <name>GNU Lesser General Public License, Version 2.1</name>
-            <url>http://www.gnu.org/licenses/lgpl-2.1.txt</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
+	<license>
+		<name>The Apache Software License, Version 2.0</name>
+		<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		<distribution>repo</distribution>
+		<comments>A business-friendly OSS license</comments>
+	</license>
+   </licenses>
 
     <properties>
         <!-- Version properties are inherited from parent -->
@@ -49,22 +50,22 @@
 		<dependency>
 			<groupId>org.drools</groupId>
 			<artifactId>knowledge-api</artifactId>
-			<version>${version.jboss.drools}</version>
+			<version>${version.org.jboss.drools}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.drools</groupId>
 			<artifactId>drools-core</artifactId>
-			<version>${version.jboss.drools}</version>
+			<version>${version.org.jboss.drools}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.drools</groupId>
 			<artifactId>drools-compiler</artifactId>
-			<version>${version.jboss.drools}</version>
+			<version>${version.org.jboss.drools}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.drools.planner</groupId>
 			<artifactId>drools-planner-core</artifactId>
-			<version>${version.jboss.drools}</version>
+			<version>${version.org.jboss.drools}</version>
 		</dependency>
         </dependencies>
       </dependencyManagement>
