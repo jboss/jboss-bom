@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-       <groupId>org.jboss.bom</groupId>
+        <groupId>org.jboss.bom</groupId>
         <version>1.0.7-SNAPSHOT</version>
         <artifactId>jboss-bom-parent</artifactId>
     </parent>
@@ -17,13 +17,13 @@
     <description>Dependency Management for Java EE 6 Specification APIs with JBoss Drools</description>
 
     <licenses>
-	<license>
-		<name>The Apache Software License, Version 2.0</name>
-		<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-		<distribution>repo</distribution>
-		<comments>A business-friendly OSS license</comments>
-	</license>
-   </licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+    </licenses>
 
     <properties>
         <!-- Version properties are inherited from parent -->
@@ -47,27 +47,27 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-		<dependency>
-			<groupId>org.drools</groupId>
-			<artifactId>knowledge-api</artifactId>
-			<version>${version.org.jboss.drools}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.drools</groupId>
-			<artifactId>drools-core</artifactId>
-			<version>${version.org.jboss.drools}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.drools</groupId>
-			<artifactId>drools-compiler</artifactId>
-			<version>${version.org.jboss.drools}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.drools.planner</groupId>
-			<artifactId>drools-planner-core</artifactId>
-			<version>${version.org.jboss.drools}</version>
-		</dependency>
+            <dependency>
+                <groupId>org.drools</groupId>
+                <artifactId>knowledge-api</artifactId>
+                <version>${version.org.jboss.drools}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.drools</groupId>
+                <artifactId>drools-core</artifactId>
+                <version>${version.org.jboss.drools}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.drools</groupId>
+                <artifactId>drools-compiler</artifactId>
+                <version>${version.org.jboss.drools}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.drools.planner</groupId>
+                <artifactId>drools-planner-core</artifactId>
+                <version>${version.org.jboss.drools}</version>
+            </dependency>
         </dependencies>
-      </dependencyManagement>
+    </dependencyManagement>
 </project>
 
