@@ -47,6 +47,7 @@
                 <scope>import</scope>
             </dependency>
 
+            <!-- Deltaspike Core -->
             <dependency>
                 <groupId>org.apache.deltaspike.core</groupId>
                 <artifactId>deltaspike-core-api</artifactId>
@@ -58,7 +59,8 @@
                 <artifactId>deltaspike-core-impl</artifactId>
                 <version>${version.org.apache.deltaspike}</version>
             </dependency>
-
+            
+            <!-- JPA Module -->
             <dependency>
                 <groupId>org.apache.deltaspike.modules</groupId>
                 <artifactId>deltaspike-jpa-module-api</artifactId>
@@ -71,12 +73,12 @@
                 <version>${version.org.apache.deltaspike}</version>
             </dependency>
 
+            <!-- Security Module -->
             <dependency>
                 <groupId>org.apache.deltaspike.modules</groupId>
                 <artifactId>deltaspike-security-module-api</artifactId>
                 <version>${version.org.apache.deltaspike}</version>
             </dependency>
-
 
             <dependency>
                 <groupId>org.apache.deltaspike.modules</groupId>
@@ -84,7 +86,18 @@
                 <version>${version.org.apache.deltaspike}</version>
             </dependency>
 
+            <!--  JSF Modules -->
+            <dependency>
+                <groupId>org.apache.deltaspike.modules</groupId>
+                <artifactId>deltaspike-jsf-module-api</artifactId>
+                <version>${version.org.apache.deltaspike}</version>
+            </dependency>
 
+            <dependency>
+                <groupId>org.apache.deltaspike.modules</groupId>
+                <artifactId>deltaspike-jsf-module-impl</artifactId>
+                <version>${version.org.apache.deltaspike}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

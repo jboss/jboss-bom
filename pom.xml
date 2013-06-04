@@ -44,7 +44,7 @@
 
     <properties>
         <!-- Version of Deltaspike -->
-        <version.org.apache.deltaspike>0.3-incubating</version.org.apache.deltaspike>
+        <version.org.apache.deltaspike>0.4</version.org.apache.deltaspike>
         <!-- Version of Drools -->
         <version.org.jboss.drools>5.5.0.Final </version.org.jboss.drools>
         <!-- Versions of JBoss projects -->
