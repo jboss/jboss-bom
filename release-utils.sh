@@ -66,7 +66,7 @@ markdown_to_html()
 
 release()
 {
-    mvn clean deploy -DaltDeploymentRepository=${RELEASE_REPO_ID}::default::${RELEASE_REPO_URL} org.sonatype.plugins:nexus-staging-maven-plugin:deploy org.sonatype.plugins:nexus-staging-maven-plugin:release -DnexusUrl=https://repository.jboss.org/nexus -DserverId=jboss-releases-repository -Prelease -Dautomatic=true -DtargetRepositoryId=releases
+    mvn clean -DaltDeploymentRepository=${RELEASE_REPO_ID}::default::${RELEASE_REPO_URL} org.sonatype.plugins:nexus-staging-maven-plugin:deploy org.sonatype.plugins:nexus-staging-maven-plugin:release -DnexusUrl=https://repository.jboss.org/nexus -DserverId=jboss-releases-repository -Prelease -Dautomatic=true -DtargetRepositoryId=releases
 }
 
 OLDVERSION="1.0.0-SNAPSHOT"
