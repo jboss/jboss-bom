@@ -6,7 +6,7 @@
 
     <groupId>org.jboss.bom</groupId>
     <artifactId>jboss-bom-parent</artifactId>
-    <version>1.0.7-SNAPSHOT</version>
+    <version>1.0.7.CR7</version>
 
     <packaging>pom</packaging>
 
