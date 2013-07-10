@@ -82,7 +82,7 @@
 
         <!-- Versions of projects not directly under JBoss umbrella -->
         <version.com.google.gwt>2.5.1</version.com.google.gwt>
-        <version.junit>4.10</version.junit>
+        <version.junit>4.11</version.junit>
         <version.log4j>1.2.16</version.log4j>
         <version.org.mvel>2.1.Beta8</version.org.mvel>
         <version.org.osgi>4.2.0</version.org.osgi>
