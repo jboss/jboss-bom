@@ -18,6 +18,6 @@ To use the BOM, import into your dependency management:
                 <scope>import</scope>
             </dependency>
         </dependencies>
-    </dependencyManagement> 
+    </dependencyManagement>
 
 You'll need to take a look at the POM source in order to find the latest versions of plugins recommended.

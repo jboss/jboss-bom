@@ -19,4 +19,3 @@ To use the BOM, import into your dependency management:
             </dependency>
         </dependencies>
     </dependencyManagement> 
-	

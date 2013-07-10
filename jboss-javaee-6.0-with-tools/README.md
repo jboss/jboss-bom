@@ -20,8 +20,8 @@ To use the BOM, import into your dependency management:
                <scope>import</scope>
             </dependency>
         </dependencies>
-    </dependencyManagement> 
-	
+    </dependencyManagement>
+
 Unfortunately, Maven doesn't allow you to specify plugin versions this way. To use the plugins associated with "Java EE with Tools recommended by JBoss" BOM, add:
 
     <pluginManagement>

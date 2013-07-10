@@ -17,8 +17,8 @@ To use the BOM, import into your dependency management. For example, if you want
                 <scope>import</scope>
             </dependency>
         </dependencies>
-    </dependencyManagement> 
-	
+    </dependencyManagement>
+
 Unfortunately, Maven doesn't allow you to specify plugin versions this way. The readme for each BOM calls out any plugin versions you should use. For example, to use the plugins associated with "Java EE with Tools recommended by JBoss":
 
     <pluginManagement>
