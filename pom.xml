@@ -121,6 +121,7 @@
         <module>jboss-javaee-6.0-with-drools</module>
         <module>jboss-javaee-6.0-with-errai</module>
         <module>jboss-javaee-6.0-with-hibernate</module>
+        <module>jboss-javaee-6.0-with-hsearch</module>
         <module>jboss-javaee-6.0-with-hibernate3</module>
         <module>jboss-javaee-6.0-with-infinispan</module>
         <module>jboss-javaee-6.0-with-logging</module>
