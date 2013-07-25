@@ -98,7 +98,7 @@
             
             <dependency>
                 <groupId>org.picketlink</groupId>
-                <artifactId>picketlink-idm-schema</artifactId>
+                <artifactId>picketlink-idm-simple-schema</artifactId>
                 <version>${version.org.picketlink}</version>
             </dependency>
 
