@@ -13,7 +13,7 @@ To use the BOM, import into your dependency management:
             <dependency>
                <groupId>org.jboss.bom.eap</groupId>
                <artifactId>jboss-javaee-6.0-with-resteasy</artifactId>
-               <version>6.1.0-redhat-SNAPSHOT</version>
+               <version>6.1.0-redhat-1</version>
                <type>pom</type>
                <scope>import</scope>
             </dependency>
