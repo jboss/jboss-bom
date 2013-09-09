@@ -15,7 +15,7 @@ To use the BOM, import into your dependency management:
             <dependency>
               <groupId>org.jboss.bom.eap</groupId>
               <artifactId>jboss-javaee-6.0-with-hibernate</artifactId>
-              <version>6.2.0-redhat-1</version>
+              <version>6.2.0-redhat-SNAPSHOT</version>
               <type>pom</type>
               <scope>import</scope>
             </dependency>
