@@ -6,7 +6,7 @@
 
     <groupId>org.jboss.bom.eap</groupId>
     <artifactId>jboss-bom-parent</artifactId>
-    <version>6.2.0-build-1</version>
+    <version>6.2.0-build-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
