@@ -9,6 +9,11 @@ if [[ $BASH_VERSION < $REQUIRED_BASH_VERSION ]]; then
   exit
 fi
 
+if [[ -z "$RELEASE_REPO_URL" ]]; then
+  echo "You must set the RELEASE_REPO_URL environment variable to your local checkout of https://github.com/jboss-developer/temp-maven-repo"
+  exit
+fi
+
 # Canonicalise the source dir, allow this script to be called anywhere
 DIR=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 
