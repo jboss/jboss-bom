@@ -28,3 +28,7 @@ bin
 # Miscellaneous
 *.log
 .clover
+
+#Vi
+*.swp
+
