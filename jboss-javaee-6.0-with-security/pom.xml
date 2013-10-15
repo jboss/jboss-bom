@@ -74,31 +74,12 @@
             <!-- PicketLink Dependencies -->
             <dependency>
                 <groupId>org.picketlink</groupId>
-                <artifactId>picketlink-api</artifactId>
+                <artifactId>picketlink-core</artifactId>
                 <version>${version.org.picketlink}</version>
             </dependency>
-            
             <dependency>
-                <groupId>org.picketlink</groupId>
-                <artifactId>picketlink-impl</artifactId>
-                <version>${version.org.picketlink}</version>
-            </dependency>
-            
-            <dependency>
-                <groupId>org.picketlink</groupId>
-                <artifactId>picketlink-idm-api</artifactId>
-                <version>${version.org.picketlink}</version>
-            </dependency>
-            
-            <dependency>
-                <groupId>org.picketlink</groupId>
-                <artifactId>picketlink-idm-impl</artifactId>
-                <version>${version.org.picketlink}</version>
-            </dependency>
-            
-            <dependency>
-                <groupId>org.picketlink</groupId>
-                <artifactId>picketlink-idm-simple-schema</artifactId>
+                <groupId>org.picketlink.distribution</groupId>
+                <artifactId>picketlink-jbas7</artifactId>
                 <version>${version.org.picketlink}</version>
             </dependency>
 
