@@ -70,6 +70,12 @@
                 <version>${version.org.jboss.security.negotiation}</version>
                 <scope>provided</scope>
             </dependency>
+            <dependency>
+                <groupId>org.jboss.web</groupId>
+                <artifactId>jbossweb</artifactId>
+                <version>${version.org.jboss.web}</version>
+                <scope>provided</scope>
+            </dependency>
             
             <!-- PicketLink Dependencies -->
             <dependency>
@@ -81,6 +87,12 @@
                 <groupId>org.picketlink.distribution</groupId>
                 <artifactId>picketlink-jbas7</artifactId>
                 <version>${version.org.picketlink}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss.security</groupId>
+                <artifactId>jbossxacml</artifactId>
+                <version>${version.org.jboss.security.jbossxacml}</version>
+                <scope>provided</scope>
             </dependency>
 
         </dependencies>
