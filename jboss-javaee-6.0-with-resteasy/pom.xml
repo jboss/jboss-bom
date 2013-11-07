@@ -45,16 +45,56 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
-            <!--  Resteasy BOM -->
             <dependency>
                 <groupId>org.jboss.resteasy</groupId>
-                <artifactId>resteasy-bom</artifactId>
+                <artifactId>resteasy-atom-provider</artifactId>
                 <version>${version.org.jboss.resteasy}</version>
-                <type>pom</type>
-                <scope>import</scope>
             </dependency>
+            <dependency>
+                <groupId>org.jboss.resteasy</groupId>
+                <artifactId>resteasy-cdi</artifactId>
+                <version>${version.org.jboss.resteasy}</version>
+            </dependency>            
+            <dependency>
+                <groupId>org.jboss.resteasy</groupId>
+                <artifactId>resteasy-hibernatevalidator-provider</artifactId>
+                <version>${version.org.jboss.resteasy}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss.resteasy</groupId>
+                <artifactId>resteasy-jackson-provider</artifactId>
+                <version>${version.org.jboss.resteasy}</version>
+            </dependency>            
+            <dependency>
+                <groupId>org.jboss.resteasy</groupId>
+                <artifactId>resteasy-jaxb-provider</artifactId>
+                <version>${version.org.jboss.resteasy}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss.resteasy</groupId>
+                <artifactId>resteasy-jaxrs</artifactId>
+                <version>${version.org.jboss.resteasy}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss.resteasy</groupId>
+                <artifactId>resteasy-jettison-provider</artifactId>
+                <version>${version.org.jboss.resteasy}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss.resteasy</groupId>
+                <artifactId>resteasy-jsapi</artifactId>
+                <version>${version.org.jboss.resteasy}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss.resteasy</groupId>
+                <artifactId>resteasy-multipart-provider</artifactId>
+                <version>${version.org.jboss.resteasy}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss.resteasy</groupId>
+                <artifactId>resteasy-yaml-provider</artifactId>
+                <version>${version.org.jboss.resteasy}</version>
+            </dependency>            
         </dependencies>
     </dependencyManagement>
-
 </project>
