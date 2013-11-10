@@ -54,7 +54,7 @@
         <version.org.jboss.spec.jboss.javaee.6.0>3.0.2.Final-redhat-6</version.org.jboss.spec.jboss.javaee.6.0>
 
         <!-- Hibernate -->
-        <version.org.hibernate>4.2.7.SP1-redhat-2</version.org.hibernate>
+        <version.org.hibernate>4.2.7.SP1-redhat-3</version.org.hibernate>
         <version.org.hibernate.validator>4.3.1.Final-redhat-1</version.org.hibernate.validator>
 
         <!-- Hibernate 3 -->
