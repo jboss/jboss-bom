@@ -26,6 +26,10 @@
 
     <properties>
         <!-- Version properties are inherited from parent -->
+
+        <!-- BZ-1029347 Temporarily ignore verification check 
+             until all transitive dependencies are available in Maven central -->
+        <qstools.bom-check.failbuild>false</qstools.bom-check.failbuild>
     </properties>
 
     <dependencyManagement>
