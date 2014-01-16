@@ -69,7 +69,7 @@
         <version.org.picketlink>2.1.9.SP2-redhat-1</version.org.picketlink>
 
         <!-- JBossWeb, it is used in jboss security negotiation project -->
-        <version.org.jboss.web>7.2.2.Final-redhat-1</version.org.jboss.web>
+        <version.org.jboss.web>7.3.0.Final-redhat-1</version.org.jboss.web>
 
         <!-- JBossxacml, it is used by pikcetlink-core -->
         <version.org.jboss.security.jbossxacml>2.0.8.Final-redhat-5</version.org.jboss.security.jbossxacml>
