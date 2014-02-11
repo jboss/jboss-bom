@@ -80,7 +80,7 @@
             <!-- PicketLink Dependencies -->
             <dependency>
                 <groupId>org.picketlink</groupId>
-                <artifactId>picketlink-core</artifactId>
+                <artifactId>picketlink-federation</artifactId>
                 <version>${version.org.picketlink}</version>
             </dependency>
             <dependency>
