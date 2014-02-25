@@ -63,7 +63,7 @@
         <version.org.hibernate3.commons.annotations>3.2.0.Final</version.org.hibernate3.commons.annotations>
 
         <!-- RestEasy -->
-        <version.org.jboss.resteasy>2.3.8.Final-redhat-2</version.org.jboss.resteasy>
+        <version.org.jboss.resteasy>2.3.8.Final-redhat-1</version.org.jboss.resteasy>
         
         <!-- Picketlink -->
         <version.org.picketlink>2.5.3.Beta2</version.org.picketlink>
