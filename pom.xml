@@ -66,10 +66,10 @@
         <version.org.jboss.resteasy>2.3.8.Final-redhat-3</version.org.jboss.resteasy>
         
         <!-- Picketlink -->
-        <version.org.picketlink>2.5.3.SP4-redhat-1</version.org.picketlink>
+        <version.org.picketlink>2.5.3.SP5-redhat-1</version.org.picketlink>
 
         <!-- JBossWeb, it is used in jboss security negotiation project -->
-        <version.org.jboss.web>7.4.1.Final-redhat-1</version.org.jboss.web>
+        <version.org.jboss.web>7.4.2.Final-redhat-1</version.org.jboss.web>
 
         <!-- JBossxacml, it is used by pikcetlink-core -->
         <version.org.jboss.security.jbossxacml>2.0.8.Final-redhat-5</version.org.jboss.security.jbossxacml>
