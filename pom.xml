@@ -54,7 +54,7 @@
         <version.org.jboss.spec.jboss.javaee.6.0>3.0.2.Final-redhat-15</version.org.jboss.spec.jboss.javaee.6.0>
 
         <!-- Hibernate -->
-        <version.org.hibernate>4.2.18.Final-redhat-1</version.org.hibernate>
+        <version.org.hibernate>4.2.18.Final-redhat-2</version.org.hibernate>
         <version.org.hibernate.validator>4.3.2.Final-redhat-2</version.org.hibernate.validator>
 
         <!-- Hibernate 3 -->
@@ -66,10 +66,10 @@
         <version.org.jboss.resteasy>2.3.10.Final-redhat-1</version.org.jboss.resteasy>
         
         <!-- Picketlink -->
-        <version.org.picketlink>2.5.4.SP1-redhat-1</version.org.picketlink>
+        <version.org.picketlink>2.5.4.SP3-redhat-1</version.org.picketlink>
 
         <!-- JBossWeb, it is used in jboss security negotiation project -->
-        <version.org.jboss.web>7.5.5.Final-redhat-1</version.org.jboss.web>
+        <version.org.jboss.web>7.5.7.Final-redhat-1</version.org.jboss.web>
 
         <!-- JBossxacml, it is used by pikcetlink-core -->
         <version.org.jboss.security.jbossxacml>2.0.8.Final-redhat-5</version.org.jboss.security.jbossxacml>
