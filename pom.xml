@@ -442,6 +442,11 @@
             </dependency>
             <dependency>
                 <groupId>org.picketlink</groupId>
+                <artifactId>picketlink-federation</artifactId>
+                <version>${version.org.picketlink}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.picketlink</groupId>
                 <artifactId>picketlink-impl</artifactId>
                 <version>${version.org.picketlink}</version>
             </dependency>
