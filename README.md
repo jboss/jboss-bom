@@ -8,12 +8,12 @@ Usage
 
 To use the BOM, import into your dependency management. For example, if you wanted "Java EE with Tools recommended by JBoss", use:
 
-    <dependencyManagement>    
+    <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.jboss.bom.eap</groupId>
-                <artifactId>jboss-javaee-web-6.0-with-tools</artifactId>
-                <version>6.2.0-build-SNAPSHOT</version>
+                <groupId>org.jboss.bom</groupId>
+                <artifactId>jboss-javaee-7.0-eap</artifactId>
+                <version>7.0.0-SNAPSHOT</version>
                 <scope>import</scope>
             </dependency>
         </dependencies>
@@ -26,15 +26,15 @@ Unfortunately, Maven doesn't allow you to specify plugin versions this way. The 
             <!-- The Maven Surefire plugin tests your application. Here we ensure we are using a version compatible with Arquillian -->
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.10</version>
+                <version>2.17</version>
             </plugin>
-            <!-- The JBoss AS plugin deploys your war to a local JBoss AS container -->
+            <!-- The WildFly Maven Plugin deploys your war to a local WildFly container -->
             <!-- To use, set the JBOSS_HOME environment variable and run:
-                 mvn package jboss-as:deploy -->
+                 mvn package wildfly:deploy -->
             <plugin>
-                <groupId>org.jboss.as.plugins</groupId>
-                <artifactId>jboss-as-maven-plugin</artifactId>
-                <version>7.3.Final</version>
+                <groupId>org.wildfly.plugins</groupId>
+                <artifactId>wildfly-maven-plugin</artifactId>
+                <version>1.0.2.Final</version>
             </plugin>
         </plugins>
     </pluginManagement>
