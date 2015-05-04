@@ -10,8 +10,8 @@
 
     <packaging>pom</packaging>
 
-    <name>JBoss EAP Dependency Management</name>
-    <description>JBoss EAP Dependency Management POM</description>
+    <name>JBoss EAP Java EE 7 Dependency Management</name>
+    <description>JBoss EAP Java EE 7 Dependency Management</description>
 
     <url>http://www.jboss.org</url>
     <issueManagement>
@@ -474,6 +474,8 @@
     </dependencyManagement>
 
     <modules>
+        <module>jboss-javaee-7.0-with-deltaspike</module>
+        <module>jboss-javaee-7.0-with-spring</module>
         <module>jboss-javaee-7.0-with-tools</module>
     </modules>
 
