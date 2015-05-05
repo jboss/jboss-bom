@@ -437,7 +437,17 @@
 
             <dependency>
                 <groupId>org.picketlink</groupId>
+                <artifactId>picketlink</artifactId>
+                <version>${version.org.picketlink}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.picketlink</groupId>
                 <artifactId>picketlink-api</artifactId>
+                <version>${version.org.picketlink}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.picketlink</groupId>
+                <artifactId>picketlink-common</artifactId>
                 <version>${version.org.picketlink}</version>
             </dependency>
             <dependency>
