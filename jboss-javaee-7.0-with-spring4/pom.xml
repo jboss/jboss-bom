@@ -10,11 +10,11 @@
         <version>7.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jboss-javaee-7.0-eap-with-spring</artifactId>
+    <artifactId>jboss-javaee-7.0-eap-with-spring4</artifactId>
     <packaging>pom</packaging>
 
-    <name>JBoss EAP Java EE 7 Dependency Management with Spring</name>
-    <description>Dependency Management for Java EE 7 Specification APIs with Spring 4.1</description>
+    <name>JBoss EAP Java EE 7 Dependency Management with Spring 4</name>
+    <description>Dependency Management for Java EE 7 Specification APIs with Spring 4</description>
 
     <licenses>
         <license>
@@ -25,15 +25,15 @@
     </licenses>
 
     <properties>
-        <!-- Versions of Spring 4.1 Projects -->
-        <version.spring>4.1.4.RELEASE</version.spring>
-        <version.spring.security>3.2.5.RELEASE</version.spring.security>
-        <version.spring.webflow>2.4.1.RELEASE</version.spring.webflow>
-        <version.spring.ws>2.2.0.RELEASE</version.spring.ws>
+        <!-- Versions of Spring Projects -->
+        <version.org.springframework>4.1.6.RELEASE</version.org.springframework>
+        <version.org.springframework.security>3.2.7.RELEASE</version.org.springframework.security>
+        <version.org.springframework.webflow>2.4.1.RELEASE</version.org.springframework.webflow>
+        <version.org.springframework.ws>2.2.1.RELEASE</version.org.springframework.ws>
         
         <!-- Versions of Spring Third Party dependencies -->
         <version.aopalliance>1.0</version.aopalliance>
-        <version.aspectj>1.7.4</version.aspectj>
+        <version.org.aspectj>1.8.5</version.org.aspectj>
     </properties>
 
     <dependencyManagement>
@@ -49,192 +49,192 @@
             <dependency>
                 <groupId>org.aspectj</groupId>
                 <artifactId>aspectjweaver</artifactId>
-                <version>${version.aspectj}</version>
+                <version>${version.org.aspectj}</version>
             </dependency>
             <dependency>
                 <groupId>org.aspectj</groupId>
                 <artifactId>aspectjrt</artifactId>
-                <version>${version.aspectj}</version>
+                <version>${version.org.aspectj}</version>
             </dependency>
             <!--  Spring  -->
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-aop</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-aspects</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-beans</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context-support</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-core</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-expression</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-instrument</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-instrument-tomcat</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-jdbc</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-jms</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-messaging</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-orm</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-oxm</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-test</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-tx</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-web</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-webmvc</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-webmvc-portlet</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-websocket</artifactId>
-                <version>${version.spring}</version>
+                <version>${version.org.springframework}</version>
             </dependency>
             <!--  security  -->
             <dependency>
                 <groupId>org.springframework.security</groupId>
                 <artifactId>spring-security-acl</artifactId>
-                <version>${version.spring.security}</version>
+                <version>${version.org.springframework.security}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.security</groupId>
                 <artifactId>spring-security-cas</artifactId>
-                <version>${version.spring.security}</version>
+                <version>${version.org.springframework.security}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.security</groupId>
                 <artifactId>spring-security-config</artifactId>
-                <version>${version.spring.security}</version>
+                <version>${version.org.springframework.security}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.security</groupId>
                 <artifactId>spring-security-core</artifactId>
-                <version>${version.spring.security}</version>
+                <version>${version.org.springframework.security}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.security</groupId>
                 <artifactId>spring-security-ldap</artifactId>
-                <version>${version.spring.security}</version>
+                <version>${version.org.springframework.security}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.security</groupId>
                 <artifactId>spring-security-openid</artifactId>
-                <version>${version.spring.security}</version>
+                <version>${version.org.springframework.security}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.security</groupId>
                 <artifactId>spring-security-remoting</artifactId>
-                <version>${version.spring.security}</version>
+                <version>${version.org.springframework.security}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.security</groupId>
                 <artifactId>spring-security-taglibs</artifactId>
-                <version>${version.spring.security}</version>
+                <version>${version.org.springframework.security}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.security</groupId>
                 <artifactId>spring-security-web</artifactId>
-                <version>${version.spring.security}</version>
+                <version>${version.org.springframework.security}</version>
             </dependency>
             <!--  webflow  -->
             <dependency>
                 <groupId>org.springframework.webflow</groupId>
                 <artifactId>spring-binding</artifactId>
-                <version>${version.spring.webflow}</version>
+                <version>${version.org.springframework.webflow}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.webflow</groupId>
                 <artifactId>spring-faces</artifactId>
-                <version>${version.spring.webflow}</version>
+                <version>${version.org.springframework.webflow}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.webflow</groupId>
                 <artifactId>spring-js</artifactId>
-                <version>${version.spring.webflow}</version>
+                <version>${version.org.springframework.webflow}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.webflow</groupId>
                 <artifactId>spring-js-resources</artifactId>
-                <version>${version.spring.webflow}</version>
+                <version>${version.org.springframework.webflow}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.webflow</groupId>
                 <artifactId>spring-webflow</artifactId>
-                <version>${version.spring.webflow}</version>
+                <version>${version.org.springframework.webflow}</version>
             </dependency>
             <!--  ws  -->
             <dependency>
                 <groupId>org.springframework.ws</groupId>
                 <artifactId>spring-ws-core</artifactId>
-                <version>${version.spring.ws}</version>
+                <version>${version.org.springframework.ws}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>commons-logging</groupId>
@@ -245,12 +245,12 @@
             <dependency>
                 <groupId>org.springframework.ws</groupId>
                 <artifactId>spring-ws-support</artifactId>
-                <version>${version.spring.ws}</version>
+                <version>${version.org.springframework.ws}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.ws</groupId>
                 <artifactId>spring-ws-security</artifactId>
-                <version>${version.spring.ws}</version>
+                <version>${version.org.springframework.ws}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>com.sun.xml.wsit</groupId>
@@ -261,7 +261,7 @@
             <dependency>
                 <groupId>org.springframework.ws</groupId>
                 <artifactId>spring-xml</artifactId>
-                <version>${version.spring.ws}</version>
+                <version>${version.org.springframework.ws}</version>
             </dependency>
             <!--  snowdrop  -->
             <dependency>
