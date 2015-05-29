@@ -1,7 +1,7 @@
-JBoss Java EE 7 with Spring 4.1
+JBoss Java EE 7 with Spring 3
 ===============================
 
-This BOM builds on the Java EE full profile BOM, adding Spring 4.1.
+This BOM builds on the Java EE full profile BOM, adding Spring 3.
   
 Usage
 -----
@@ -12,7 +12,7 @@ To use the BOM, import into your dependency management:
         <dependencies>
             <dependency>
                <groupId>org.jboss.bom</groupId>
-               <artifactId>jboss-javaee-7.0-eap-with-spring</artifactId>
+               <artifactId>jboss-javaee-7.0-eap-with-spring3</artifactId>
                <version>7.0.0-SNAPSHOT</version>
                <type>pom</type>
                <scope>import</scope>

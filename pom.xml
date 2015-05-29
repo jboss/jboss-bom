@@ -490,7 +490,8 @@
 
     <modules>
         <module>jboss-javaee-7.0-with-deltaspike</module>
-        <module>jboss-javaee-7.0-with-spring</module>
+        <module>jboss-javaee-7.0-with-spring3</module>
+        <module>jboss-javaee-7.0-with-spring4</module>
         <module>jboss-javaee-7.0-with-tools</module>
     </modules>
 
