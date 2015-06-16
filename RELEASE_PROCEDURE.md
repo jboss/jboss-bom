@@ -30,7 +30,11 @@ Publishing builds to Maven
 Release
 -------
 
-To release, simply run:  
+To release, first verify that you have set the environment variable RELEASE_REPO_URL:
+
+      export RELEASE_REPO_URL=file:///home/me/repos/checkout-of-jboss-developer-temp-maven-repo
+
+Then, simply run:  
       
       ./release.sh -s <old snapshot version> -r <release version>
 
