@@ -13,7 +13,7 @@ To use the BOM, import into your dependency management. For example, if you want
             <dependency>
                 <groupId>org.jboss.bom</groupId>
                 <artifactId>jboss-javaee-7.0-eap</artifactId>
-                <version>7.0.0-build-2</version>
+                <version>7.0.0-SNAPSHOT</version>
                 <scope>import</scope>
             </dependency>
         </dependencies>
