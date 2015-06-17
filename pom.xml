@@ -52,6 +52,7 @@
         <version.org.jboss.arquillian.graphene>2.0.2.Final</version.org.jboss.arquillian.graphene>
         <version.org.wildfly.arquillian.container>1.0.0.Alpha5</version.org.wildfly.arquillian.container>
         <version.org.jboss.narayana>5.0.4.Final</version.org.jboss.narayana>
+        <version.org.jboss.ejb3.ext-api>2.1.0</version.org.jboss.ejb3.ext-api>
         <version.org.jboss.logging>3.2.1.Final</version.org.jboss.logging>
         <version.org.jboss.logging.processor>1.2.0.Final</version.org.jboss.logging.processor>
         <version.org.jboss.resteasy>3.0.11.Final</version.org.jboss.resteasy>
@@ -215,6 +216,18 @@
                 <groupId>org.infinispan</groupId>
                 <artifactId>infinispan-client-hotrod</artifactId>
                 <version>${version.org.infinispan}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jboss.ejb3</groupId>
+                <artifactId>jboss-ejb3-ext-api</artifactId>
+                <version>${version.org.jboss.ejb3.ext-api}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.jboss.javaee</groupId>
+                        <artifactId>jboss-ejb-api</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
 
             <!--  These dependencies are the jboss-logging tools magic -->
