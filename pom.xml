@@ -45,6 +45,7 @@
     <properties>
 
         <!-- Versions of JBoss projects -->
+        <version.org.wildfly>10.0.0.Alpha3</version.org.wildfly>
         <version.org.infinispan>7.1.1.Final</version.org.infinispan>
         <version.org.jboss.arquillian>1.1.7.Final</version.org.jboss.arquillian>
         <version.org.jboss.arquillian.extension.drone>1.3.0.Final</version.org.jboss.arquillian.extension.drone>
@@ -93,7 +94,26 @@
                 <scope>import</scope>
             </dependency>
 
-         <!-- EAP Components -->
+        <!-- Wildfly client dependency sets -->
+            <!-- The ejb and jms client BOMs should be used as a normal dependency with
+                 <type>pom</type>.  This adds a set of dependencies to the build.
+                 This is in contrast to dependency management using the "import" 
+                 scope which manages dependency versions, but does not add the 
+                 dependencies to the build classpath. -->
+            <dependency>
+                <groupId>org.wildfly</groupId>
+                <artifactId>wildfly-ejb-client-bom</artifactId>
+                <version>${version.org.wildfly}</version>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.wildfly</groupId>
+                <artifactId>wildfly-jms-client-bom</artifactId>
+                <version>${version.org.wildfly}</version>
+                <type>pom</type>
+            </dependency>
+
+        <!-- Individual EAP Components -->
             <!-- Hibernate ORM sub-modules -->
             <dependency>
                 <groupId>org.hibernate</groupId>
