@@ -48,29 +48,6 @@ OPTIONS:
 EOF
 }
 
-notify_email()
-{
-   echo "***** Performing JBoss BOM release notifications"
-   echo "*** Notifying JBoss EAP team"
-   subject=`eval echo $EMAIL_SUBJECT`
-   echo "Email from: " $EMAIL_FROM
-   echo "Email to: " $EMAIL_TO
-   echo "Subject: " $subject
-   # send email using sendmail
-   printf "Subject: $subject\nSee \$subject :)\n" | /usr/bin/env sendmail -f "$EMAIL_FROM" "$EMAIL_TO"
-}
-
-notify_jira()
-{
-    echo -n "Please enter your JIRA username: "
-    read username
-    echo -n "Please enter your JIRA password: "
-    read password
-    description=`eval echo $JIRA_DESCRIPTION`
-    curl -u $username:$password -X POST -H 'Content-Type: application/json' -d "{ \"fields\": { \"project\": {  \"id\": \"$JIRA_PROJECT\" },\"issuetype\": {\"id\": \"12\" },\"assignee\": { \"name\": \"$JIRA_TO\"}, \"summary\": \"$JIRA_SUMMARY\", \"description\": \"$description\"}}"   https://issues.jboss.org/rest/api/2/issue
-    echo
-    echo "JIRA Opened"
-}
 
 release()
 {
@@ -83,11 +60,6 @@ release()
    git commit -a -m "Prepare for development of $NEWSNAPSHOTVERSION"
    git push upstream HEAD --tags
    echo "***** JBoss BOMs released"
-   read -p "Do you want to send release notifcations to $EAP_EMAIL_TO[y/N]? " yn
-   case $yn in
-       [Yy]* ) notify_email;;
-       * ) exit;
-   esac
 }
 
 SNAPSHOTVERSION="UNDEFINED"
