@@ -523,6 +523,11 @@
 
             <dependency>
                 <groupId>org.wildfly</groupId>
+                <artifactId>wildfly-clustering-singleton</artifactId>
+                <version>${version.org.wildfly}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.wildfly</groupId>
                 <artifactId>wildfly-security-api</artifactId>
                 <version>${version.org.wildfly}</version>
             </dependency>
