@@ -48,7 +48,7 @@
         <version.org.wildfly>10.0.0.Beta1</version.org.wildfly>
         <version.org.infinispan>8.0.0.Beta1</version.org.infinispan>
         <version.org.jboss.arquillian>1.1.8.Final</version.org.jboss.arquillian>
-        <version.org.jboss.arquillian.extension.drone>2.0.0.Alpha4</version.org.jboss.arquillian.extension.drone>
+        <version.org.jboss.arquillian.extension.drone>2.0.0.Alpha5</version.org.jboss.arquillian.extension.drone>
         <version.org.jboss.arquillian.graphene>2.0.3.Final</version.org.jboss.arquillian.graphene>
         <version.org.wildfly.arquillian.container>1.0.1.Final</version.org.wildfly.arquillian.container>
         <version.org.jboss.narayana>5.2.1.Final</version.org.jboss.narayana>
