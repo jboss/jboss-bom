@@ -263,27 +263,7 @@
                 <artifactId>spring-xml</artifactId>
                 <version>${version.org.springframework.ws}</version>
             </dependency>
-            <!--  snowdrop  -->
-            <dependency>
-                <groupId>org.jboss.snowdrop</groupId>
-                <artifactId>snowdrop-vfs</artifactId>
-                <version>${version.snowdrop}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.jboss.snowdrop</groupId>
-                <artifactId>snowdrop-weaving</artifactId>
-                <version>${version.snowdrop}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.jboss.snowdrop</groupId>
-                <artifactId>snowdrop-interceptors</artifactId>
-                <version>${version.snowdrop}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.jboss.snowdrop</groupId>
-                <artifactId>snowdrop-namespace</artifactId>
-                <version>${version.snowdrop}</version>
-            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
