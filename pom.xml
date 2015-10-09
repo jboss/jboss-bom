@@ -57,7 +57,7 @@
         <version.org.jboss.logging.processor>1.2.0.Final</version.org.jboss.logging.processor>
         <version.org.jboss.resteasy>3.0.13.Final</version.org.jboss.resteasy>
         <version.org.jboss.security.negotiation>3.0.0.CR1</version.org.jboss.security.negotiation>
-        <version.org.jboss.spec.jboss.javaee.7.0>1.0.3.Final</version.org.jboss.spec.jboss.javaee.7.0>
+        <version.org.jboss.spec.jboss.javaee7>1.0.3.Final</version.org.jboss.spec.jboss.javaee7>
         <version.org.jboss.shrinkwrap.resolver>2.1.1</version.org.jboss.shrinkwrap.resolver>
         <version.org.picketbox.picketbox-commons>1.0.0.final</version.org.picketbox.picketbox-commons>
         <version.org.picketlink>2.5.5.CR1</version.org.picketlink>
@@ -85,13 +85,13 @@
             <!-- JBoss distributes a complete set of Java EE 7 APIs including
                 a Bill of Materials (BOM). A BOM specifies the versions of a "stack" (or
                 a collection) of artifacts. We use this here so that we always get the correct
-                versions of artifacts. Here we use the jboss-javaee-7.0 stack (you can read
+                versions of artifacts. Here we use the jboss-javaee-7 stack (you can read
                 this as the JBoss stack of the Java EE full Profile 7 APIs). You can actually use
                 this stack with any version of WildFly that implements Java EE 7! -->
             <dependency>
                 <groupId>org.jboss.spec</groupId>
                 <artifactId>jboss-javaee-7.0</artifactId>
-                <version>${version.org.jboss.spec.jboss.javaee.7.0}</version>
+                <version>${version.org.jboss.spec.jboss.javaee7}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
