@@ -5,11 +5,11 @@
 
     <parent>
         <groupId>org.jboss.bom</groupId>
-        <artifactId>jboss-javaee-7.0-eap</artifactId>
+        <artifactId>jboss-javaee7-eap</artifactId>
         <version>7.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jboss-javaee-7.0-eap-with-tools</artifactId>
+    <artifactId>jboss-javaee7-eap-with-tools</artifactId>
     <packaging>pom</packaging>
 
     <name>JBoss EAP Java EE 7 Dependency Management with Tools</name>
