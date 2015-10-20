@@ -31,9 +31,6 @@
         <version.org.springframework.webflow>2.4.1.RELEASE</version.org.springframework.webflow>
         <version.org.springframework.ws>2.2.1.RELEASE</version.org.springframework.ws>
 
-        <!-- Versions of Snowdrop -->
-        <version.snowdrop>3.1.1.Final-redhat-1</version.snowdrop>
-
         <!-- Versions of Spring Third Party dependencies -->
         <version.aopalliance>1.0</version.aopalliance>
         <version.org.aspectj>1.8.5</version.org.aspectj>
@@ -254,27 +251,6 @@
                 <groupId>org.springframework.ws</groupId>
                 <artifactId>spring-xml</artifactId>
                 <version>${version.org.springframework.ws}</version>
-            </dependency>
-            <!-- snowdrop -->
-            <dependency>
-                <groupId>org.jboss.snowdrop</groupId>
-                <artifactId>snowdrop-interceptors</artifactId>
-                <version>${version.snowdrop}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.jboss.snowdrop</groupId>
-                <artifactId>snowdrop-namespace</artifactId>
-                <version>${version.snowdrop}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.jboss.snowdrop</groupId>
-                <artifactId>snowdrop-vfs</artifactId>
-                <version>${version.snowdrop}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.jboss.snowdrop</groupId>
-                <artifactId>snowdrop-weaving</artifactId>
-                <version>${version.snowdrop}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
