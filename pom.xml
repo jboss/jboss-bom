@@ -45,7 +45,7 @@
     <properties>
 
         <!-- Versions of JBoss projects -->
-        <version.org.wildfly>10.0.0.CR2</version.org.wildfly>
+        <version.org.wildfly>10.0.0.CR3</version.org.wildfly>
         <version.org.infinispan>8.0.1.Final</version.org.infinispan>
         <version.org.jboss.arquillian>1.1.9.Final</version.org.jboss.arquillian>
         <version.org.jboss.arquillian.extension.drone>2.0.0.Alpha5</version.org.jboss.arquillian.extension.drone>
@@ -65,7 +65,7 @@
         <!-- Version of Hibernate projects -->
         <version.org.hibernate>5.0.0.Final</version.org.hibernate>
         <version.org.hibernate-jpamodelgen>${version.org.hibernate}</version.org.hibernate-jpamodelgen>
-        <version.org.hibernate.validator>5.2.1.Final</version.org.hibernate.validator>
+        <version.org.hibernate.validator>5.2.2.Final</version.org.hibernate.validator>
         <version.org.hibernate.search>5.5.0.Final</version.org.hibernate.search>
 
         <!-- Versions of projects not directly under JBoss umbrella -->
