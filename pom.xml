@@ -178,11 +178,6 @@
             </dependency>
             <dependency>
                 <groupId>org.hibernate</groupId>
-                <artifactId>hibernate-search-analyzers</artifactId>
-                <version>${version.org.hibernate.search}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.hibernate</groupId>
                 <artifactId>hibernate-search-engine</artifactId>
                 <version>${version.org.hibernate.search}</version>
             </dependency>
@@ -482,11 +477,6 @@
 
             <dependency>
                 <groupId>org.picketlink</groupId>
-                <artifactId>picketlink</artifactId>
-                <version>${version.org.picketlink}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.picketlink</groupId>
                 <artifactId>picketlink-api</artifactId>
                 <version>${version.org.picketlink}</version>
             </dependency>
@@ -513,11 +503,6 @@
             <dependency>
                 <groupId>org.picketlink</groupId>
                 <artifactId>picketlink-idm-impl</artifactId>
-                <version>${version.org.picketlink}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.picketlink</groupId>
-                <artifactId>picketlink-idm-schema</artifactId>
                 <version>${version.org.picketlink}</version>
             </dependency>
 
