@@ -45,28 +45,28 @@
     <properties>
 
         <!-- Versions of JBoss projects -->
-        <version.org.wildfly>10.0.0.CR4</version.org.wildfly>
-        <version.org.infinispan>8.0.1.Final</version.org.infinispan>
+        <version.org.wildfly>10.0.0.CR5-redhat-1</version.org.wildfly>
+        <version.org.infinispan>8.0.1.Final-redhat-1</version.org.infinispan>
         <version.org.jboss.arquillian>1.1.10.Final</version.org.jboss.arquillian>
         <version.org.jboss.arquillian.extension.drone>2.0.0.Alpha5</version.org.jboss.arquillian.extension.drone>
         <version.org.jboss.arquillian.graphene>2.0.3.Final</version.org.jboss.arquillian.graphene>
         <version.org.wildfly.arquillian.container>1.1.0.Alpha1</version.org.wildfly.arquillian.container>
-        <version.org.jboss.narayana>5.2.6.Final</version.org.jboss.narayana>
-        <version.org.jboss.ejb3.ext-api>2.2.0.Final</version.org.jboss.ejb3.ext-api>
-        <version.org.jboss.logging>3.3.0.Final</version.org.jboss.logging>
+        <version.org.jboss.narayana>5.2.7.Final-redhat-1</version.org.jboss.narayana>
+        <version.org.jboss.ejb3.ext-api>2.2.0.Final-redhat-1</version.org.jboss.ejb3.ext-api>
+        <version.org.jboss.logging>3.3.0.Final-redhat-1</version.org.jboss.logging>
         <version.org.jboss.logging.processor>2.0.1.Final</version.org.jboss.logging.processor>
-        <version.org.jboss.resteasy>3.0.13.Final</version.org.jboss.resteasy>
-        <version.org.jboss.security.negotiation>3.0.0.CR1</version.org.jboss.security.negotiation>
+        <version.org.jboss.resteasy>3.0.13.Final-redhat-1</version.org.jboss.resteasy>
+        <version.org.jboss.security.negotiation>3.0.0.Final-redhat-1</version.org.jboss.security.negotiation>
         <version.org.jboss.spec.jboss.javaee7>1.0.3.Final</version.org.jboss.spec.jboss.javaee7>
         <version.org.jboss.shrinkwrap.resolver>2.2.0</version.org.jboss.shrinkwrap.resolver>
-        <version.org.picketbox.picketbox-commons>1.0.0.final</version.org.picketbox.picketbox-commons>
-        <version.org.picketlink>2.5.5.SP1</version.org.picketlink>
+        <version.org.picketbox.picketbox-commons>1.0.0.final-redhat-4</version.org.picketbox.picketbox-commons>
+        <version.org.picketlink>2.5.5.SP1-redhat-1</version.org.picketlink>
 
         <!-- Version of Hibernate projects -->
-        <version.org.hibernate>5.0.0.Final</version.org.hibernate>
+        <version.org.hibernate>5.0.1.Final-redhat-2</version.org.hibernate>
         <version.org.hibernate-jpamodelgen>${version.org.hibernate}</version.org.hibernate-jpamodelgen>
-        <version.org.hibernate.validator>5.2.2.Final</version.org.hibernate.validator>
-        <version.org.hibernate.search>5.5.0.Final</version.org.hibernate.search>
+        <version.org.hibernate.validator>5.2.2.Final-redhat-2</version.org.hibernate.validator>
+        <version.org.hibernate.search>5.5.0.Final-redhat-1</version.org.hibernate.search>
 
         <!-- Versions of projects not directly under JBoss umbrella -->
         <version.junit>4.11</version.junit>
