@@ -45,7 +45,7 @@
     <properties>
 
         <!-- Versions of JBoss projects -->
-        <version.org.wildfly>10.0.0.CR5-redhat-1</version.org.wildfly>
+        <version.org.wildfly>10.0.0.CR6-redhat-1</version.org.wildfly>
         <version.org.infinispan>8.0.1.Final-redhat-1</version.org.infinispan>
         <version.org.jboss.arquillian>1.1.10.Final</version.org.jboss.arquillian>
         <version.org.jboss.arquillian.extension.drone>2.0.0.Alpha5</version.org.jboss.arquillian.extension.drone>
