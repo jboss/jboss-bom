@@ -248,12 +248,6 @@
                 <scope>provided</scope>
                 <classifier>api</classifier>
             </dependency>
-            <dependency>
-                <groupId>org.jboss.narayana.jts</groupId>
-                <artifactId>narayana-jts-jacorb</artifactId>
-                <version>${version.org.jboss.narayana}</version>
-                <scope>provided</scope>
-            </dependency>
 
             <dependency>
                 <groupId>org.jboss.resteasy</groupId>
