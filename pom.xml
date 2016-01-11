@@ -45,7 +45,7 @@
     <properties>
 
         <!-- Versions of JBoss projects -->
-        <version.org.wildfly>10.0.0.CR6-redhat-2</version.org.wildfly>
+        <version.org.jboss.eap>7.0.0.ER4-redhat-1</version.org.jboss.eap>
         <version.org.infinispan>8.1.0.Final-redhat-1</version.org.infinispan>
         <version.org.jboss.arquillian>1.1.10.Final</version.org.jboss.arquillian>
         <version.org.jboss.arquillian.extension.drone>2.0.0.Alpha5</version.org.jboss.arquillian.extension.drone>
@@ -103,15 +103,15 @@
                  scope which manages dependency versions, but does not add the 
                  dependencies to the build classpath. -->
             <dependency>
-                <groupId>org.wildfly</groupId>
+                <groupId>org.jboss.eap</groupId>
                 <artifactId>wildfly-ejb-client-bom</artifactId>
-                <version>${version.org.wildfly}</version>
+                <version>${version.org.jboss.eap}</version>
                 <type>pom</type>
             </dependency>
             <dependency>
-                <groupId>org.wildfly</groupId>
+                <groupId>org.jboss.eap</groupId>
                 <artifactId>wildfly-jms-client-bom</artifactId>
-                <version>${version.org.wildfly}</version>
+                <version>${version.org.jboss.eap}</version>
                 <type>pom</type>
             </dependency>
 
@@ -481,14 +481,14 @@
             </dependency>
 
             <dependency>
-                <groupId>org.wildfly</groupId>
+                <groupId>org.jboss.eap</groupId>
                 <artifactId>wildfly-clustering-singleton-api</artifactId>
-                <version>${version.org.wildfly}</version>
+                <version>${version.org.jboss.eap}</version>
             </dependency>
             <dependency>
-                <groupId>org.wildfly</groupId>
+                <groupId>org.jboss.eap</groupId>
                 <artifactId>wildfly-security-api</artifactId>
-                <version>${version.org.wildfly}</version>
+                <version>${version.org.jboss.eap}</version>
             </dependency>
 
 
