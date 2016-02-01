@@ -54,7 +54,7 @@
         <version.org.jboss.narayana>5.2.12.Final-redhat-1</version.org.jboss.narayana>
         <version.org.jboss.ejb3.ext-api>2.2.0.Final-redhat-1</version.org.jboss.ejb3.ext-api>
         <version.org.jboss.logging>3.3.0.Final-redhat-1</version.org.jboss.logging>
-        <version.org.jboss.logging.processor>2.0.1.Final</version.org.jboss.logging.processor>
+        <version.org.jboss.logging.processor>2.0.1.Final-redhat-1</version.org.jboss.logging.processor>
         <version.org.jboss.resteasy>3.0.14.Final-redhat-1</version.org.jboss.resteasy>
         <version.org.jboss.security.negotiation>3.0.0.Final-redhat-1</version.org.jboss.security.negotiation>
         <version.org.jboss.spec.jboss.javaee7>1.0.3.Final-redhat-1</version.org.jboss.spec.jboss.javaee7>
