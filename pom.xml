@@ -59,6 +59,7 @@
         <version.org.jboss.security.jboss-negotiation>3.0.0.Final-redhat-1</version.org.jboss.security.jboss-negotiation>
         <version.org.jboss.spec.jboss.javaee7>1.0.3.Final-redhat-1</version.org.jboss.spec.jboss.javaee7>
         <version.org.jboss.shrinkwrap.resolver>2.2.2</version.org.jboss.shrinkwrap.resolver>
+        <version.org.jboss.ws.cxf>5.1.3.Final-redhat-2</version.org.jboss.ws.cxf>
         <version.org.picketbox.picketbox-commons>1.0.0.final-redhat-4</version.org.picketbox.picketbox-commons>
         <version.org.picketlink>2.5.5.SP1-redhat-1</version.org.picketlink>
 
@@ -436,6 +437,18 @@
                 <artifactId>jboss-negotiation-spnego</artifactId>
                 <version>${version.org.jboss.security.jboss-negotiation}</version>
                 <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jboss.ws.cxf</groupId>
+                <artifactId>jbossws-cxf-client</artifactId>
+                <version>${version.org.jboss.ws.cxf}</version>
+                <exclusions>
+                    <exclusion>
+                    <groupId>org.jboss.com.sun.httpserver</groupId>
+                    <artifactId>httpserver</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
 
             <dependency>
