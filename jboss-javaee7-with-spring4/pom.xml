@@ -26,14 +26,14 @@
 
     <properties>
         <!-- Versions of Spring Projects -->
-        <version.org.springframework>4.2.4.RELEASE</version.org.springframework>
-        <version.org.springframework.security>4.0.3.RELEASE</version.org.springframework.security>
+        <version.org.springframework>4.2.5.RELEASE</version.org.springframework>
+        <version.org.springframework.security>4.0.4.RELEASE</version.org.springframework.security>
         <version.org.springframework.webflow>2.4.2.RELEASE</version.org.springframework.webflow>
         <version.org.springframework.ws>2.2.4.RELEASE</version.org.springframework.ws>
         
         <!-- Versions of Spring Third Party dependencies -->
         <version.aopalliance>1.0</version.aopalliance>
-        <version.org.aspectj>1.8.7</version.org.aspectj>
+        <version.org.aspectj>1.8.8</version.org.aspectj>
     </properties>
 
     <dependencyManagement>
