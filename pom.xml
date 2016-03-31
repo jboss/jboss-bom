@@ -118,6 +118,26 @@
             </dependency>
 
         <!-- Individual EAP Components -->
+
+            <!-- Note, these jaxb jars are part of the private EAP 7 and should
+            not be used directly.  They are included here only because they are
+            transitive dependencies of jbossws-cxf-client -->
+            <dependency>
+                <groupId>org.glassfish.jaxb</groupId>
+                <artifactId>jaxb-core</artifactId>
+                <version>${version.org.glassfish.jaxb}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.glassfish.jaxb</groupId>
+                <artifactId>jaxb-runtime</artifactId>
+                <version>${version.org.glassfish.jaxb}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.glassfish.jaxb</groupId>
+                <artifactId>jaxb-xjc</artifactId>
+                <version>${version.org.glassfish.jaxb}</version>
+            </dependency>
+
             <!-- Hibernate ORM sub-modules -->
             <dependency>
                 <groupId>org.hibernate</groupId>
@@ -413,22 +433,6 @@
                     </exclusion>
                 </exclusions>
             </dependency>
-            <dependency>
-                <groupId>org.glassfish.jaxb</groupId>
-                <artifactId>jaxb-runtime</artifactId>
-                <version>${version.org.glassfish.jaxb}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.glassfish.jaxb</groupId>
-                <artifactId>jaxb-xjc</artifactId>
-                <version>${version.org.glassfish.jaxb}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.glassfish.jaxb</groupId>
-                <artifactId>jaxb-core</artifactId>
-                <version>${version.org.glassfish.jaxb}</version>
-            </dependency>
-
 
             <dependency>
                 <groupId>org.picketbox</groupId>
