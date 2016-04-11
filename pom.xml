@@ -51,7 +51,7 @@
         <version.org.jboss.arquillian.extension.drone>2.0.0.Final</version.org.jboss.arquillian.extension.drone>
         <version.org.jboss.arquillian.graphene>2.1.0.CR1</version.org.jboss.arquillian.graphene>
         <version.org.wildfly.arquillian.container>2.0.0.Final</version.org.wildfly.arquillian.container>
-        <version.org.jboss.narayana>5.2.15.Final-redhat-1</version.org.jboss.narayana>
+        <version.org.jboss.narayana>5.2.16.Final-redhat-1</version.org.jboss.narayana>
         <version.org.jboss.ejb3.ext-api>2.2.0.Final-redhat-1</version.org.jboss.ejb3.ext-api>
         <version.org.jboss.logging.jboss-logging>3.3.0.Final-redhat-1</version.org.jboss.logging.jboss-logging>
         <version.org.jboss.logging.processor>2.0.1.Final-redhat-1</version.org.jboss.logging.processor>
