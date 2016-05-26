@@ -49,7 +49,7 @@
         <version.org.infinispan>8.1.2.Final-redhat-1</version.org.infinispan>
         <version.org.jboss.arquillian>1.1.11.Final</version.org.jboss.arquillian>
         <version.org.jboss.arquillian.extension.drone>2.0.0.Final</version.org.jboss.arquillian.extension.drone>
-        <version.org.jboss.arquillian.graphene>2.1.0.CR1</version.org.jboss.arquillian.graphene>
+        <version.org.jboss.arquillian.graphene>2.1.0.CR2</version.org.jboss.arquillian.graphene>
         <version.org.wildfly.arquillian.container>2.0.0.Final</version.org.wildfly.arquillian.container>
         <version.org.jboss.narayana>5.2.16.Final-redhat-1</version.org.jboss.narayana>
         <version.org.jboss.ejb3.ext-api>2.2.0.Final-redhat-1</version.org.jboss.ejb3.ext-api>
