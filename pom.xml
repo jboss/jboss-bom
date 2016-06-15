@@ -66,6 +66,7 @@
 
         <!-- Version of Hibernate projects -->
         <version.org.hibernate>5.0.9.Final-redhat-1</version.org.hibernate>
+        <version.org.hibernate.commons.annotations>5.0.1.Final-redhat-2</version.org.hibernate.commons.annotations>
         <version.org.hibernate-jpamodelgen>${version.org.hibernate}</version.org.hibernate-jpamodelgen>
         <version.org.hibernate.validator>5.2.4.Final-redhat-1</version.org.hibernate.validator>
         <version.org.hibernate.search>5.5.2.Final-redhat-1</version.org.hibernate.search>
@@ -218,6 +219,11 @@
                 <groupId>org.hibernate</groupId>
                 <artifactId>hibernate-jpamodelgen</artifactId>
                 <version>${version.org.hibernate-jpamodelgen}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate.commons</groupId>
+                <artifactId>hibernate-commons-annotations</artifactId>
+                <version>${version.org.hibernate.commons.annotations}</version>
             </dependency>
 
             <dependency>
