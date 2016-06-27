@@ -1,7 +1,7 @@
 JBoss BOMs
 ==========
 
-The JBoss BOM's project provides Maven BOM files enhancing Jave EE 6 with deployment and test tooling. These files manage the version of the dependencies you use in your project, ensuring you always get a compatible stack.
+The JBoss BOM's project provides Maven BOM files enhancing Jave EE 7 with deployment and test tooling. These files manage the version of the dependencies you use in your project, ensuring you always get a compatible stack.
 
 Usage
 -----
