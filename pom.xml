@@ -45,7 +45,7 @@
     <properties>
 
         <!-- Versions of JBoss projects -->
-        <version.org.jboss.eap>7.0.5.GA-redhat-1</version.org.jboss.eap>
+        <version.org.jboss.eap>7.0.5.GA-redhat-2</version.org.jboss.eap>
         <version.org.infinispan>8.1.7.Final-redhat-1</version.org.infinispan>
         <version.org.jboss.arquillian>1.1.11.Final</version.org.jboss.arquillian>
         <version.org.jboss.arquillian.extension.drone>2.0.0.Final</version.org.jboss.arquillian.extension.drone>
@@ -61,7 +61,7 @@
         <version.org.jboss.shrinkwrap.resolver>2.2.2</version.org.jboss.shrinkwrap.resolver>
         <version.org.jboss.ws.cxf>5.1.5.Final-redhat-1</version.org.jboss.ws.cxf>
         <version.org.picketbox.picketbox-commons>1.0.0.final-redhat-4</version.org.picketbox.picketbox-commons>
-        <version.org.picketlink>2.5.5.SP5-redhat-1</version.org.picketlink>
+        <version.org.picketlink>2.5.5.SP6-redhat-1</version.org.picketlink>
         <version.org.glassfish.jaxb>2.2.11.redhat-4</version.org.glassfish.jaxb>
 
         <!-- Version of Hibernate projects -->
