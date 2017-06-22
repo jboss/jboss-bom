@@ -45,7 +45,7 @@
     <properties>
 
         <!-- Versions of JBoss projects -->
-        <version.org.jboss.eap>7.0.7.GA-redhat-1</version.org.jboss.eap>
+        <version.org.jboss.eap>7.0.7.GA-redhat-2</version.org.jboss.eap>
         <version.org.infinispan>8.1.8.Final-redhat-1</version.org.infinispan>
         <version.org.jboss.arquillian>1.1.11.Final</version.org.jboss.arquillian>
         <version.org.jboss.arquillian.extension.drone>2.0.0.Final</version.org.jboss.arquillian.extension.drone>
