@@ -72,7 +72,7 @@
 
         <!-- Versions of projects not directly under JBoss umbrella -->
         <version.junit>4.11</version.junit>
-        <version.log4j>1.2.16</version.log4j>
+        <version.log4j>1.2.16.redhat-3</version.log4j>
         <version.org.testng>6.1.1</version.org.testng>
 
         <!-- Versions of Maven plugins, user must setup them by his/her own -->
