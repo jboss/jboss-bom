@@ -57,17 +57,17 @@
         <version.org.jboss.logging.processor>2.0.1.Final-redhat-1</version.org.jboss.logging.processor>
         <version.org.jboss.resteasy>3.0.19.SP4-redhat-1</version.org.jboss.resteasy>
         <version.org.jboss.security.jboss-negotiation>3.0.4.Final-redhat-1</version.org.jboss.security.jboss-negotiation>
-        <version.org.jboss.spec.jboss.javaee7>1.0.3.Final-redhat-7</version.org.jboss.spec.jboss.javaee7>
+        <version.org.jboss.spec.jboss.javaee7>1.0.3.Final-redhat-8</version.org.jboss.spec.jboss.javaee7>
         <version.org.jboss.shrinkwrap.resolver>2.2.2</version.org.jboss.shrinkwrap.resolver>
         <version.org.jboss.ws.cxf>5.1.8.Final-redhat-1</version.org.jboss.ws.cxf>
         <version.org.picketbox.picketbox-commons>1.0.0.final-redhat-4</version.org.picketbox.picketbox-commons>
-        <version.org.picketlink>2.5.5.SP7-redhat-2</version.org.picketlink>
+        <version.org.picketlink>2.5.5.SP8-redhat-1</version.org.picketlink>
         <version.org.glassfish.jaxb>2.2.11.redhat-4</version.org.glassfish.jaxb>
 
         <!-- Version of Hibernate projects -->
         <version.org.hibernate>5.0.14.Final-redhat-1</version.org.hibernate>
         <version.org.hibernate-jpamodelgen>${version.org.hibernate}</version.org.hibernate-jpamodelgen>
-        <version.org.hibernate.validator>5.2.5.Final-redhat-1</version.org.hibernate.validator>
+        <version.org.hibernate.validator>5.2.5.Final-redhat-2</version.org.hibernate.validator>
         <version.org.hibernate.search>5.5.2.Final-redhat-1</version.org.hibernate.search>
 
         <!-- Versions of projects not directly under JBoss umbrella -->
